@@ -1,0 +1,118 @@
+section.superior {
+  background-color: #f3603b;
+  padding:3rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+section.superior h2 {
+  color: white;
+  font-size: 2.5rem;
+  width:29rem;
+}
+  
+section.superior button {
+  background-color: white;
+  color:#f3603b;
+  border-radius: 25px;
+  border: white 1px solid;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  box-shadow: 2px 10px 20px -5px rgba(0, 0, 0, 0.75);
+  width: 8rem;
+}
+
+section.superior button:hover {
+  background-color:#2c435c;
+  border: #2c435c 1px solid; 
+  color: white;
+  cursor: pointer;
+}
+
+section.inferior {
+  background-color: #1E1E26;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.5rem 10rem 0rem 10rem;
+}
+
+section.inferior article img.logoManage {
+  margin-bottom: 2rem;
+}
+
+section.inferior article div.iconos img {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+}
+
+section.inferior nav ul {
+  text-decoration: none; 
+  color: white;   
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;    
+  list-style: none; 
+}
+
+section.inferior nav ul li {
+  text-decoration: none; 
+  color: white;   
+  display: flex;
+  min-width: 40%;    
+}
+
+section.inferior nav ul li a{
+  text-decoration: none; 
+  color: white;
+  padding-bottom: 0.25rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+section.inferior div.inbox form input {
+  font-size: 0.8rem;
+  color: #A0A0A0;    
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+}
+
+section.inferior div.inbox form input:focus {
+  color:black;
+  font-size: 1rem;
+}
+
+section.inferior div.inbox form button {
+  font-size: 0.8rem;
+  color: white;
+  background-color:#f3603b;    
+  border: 2px solid #f3603b;
+  border-radius: 25px;
+  margin-left: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+}
+
+section.inferior div.inbox form button:hover {
+  background-color:white;
+  border: white 1px solid; 
+  color: #f3603b;
+}
+
+footer p {
+  color: #8C8C94;
+  background-color: #1E1E26;
+  font-size: 0.7rem;
+  text-align: right;
+  padding-bottom: 3.5rem;  
+  padding-right: 10rem;  
+}
+

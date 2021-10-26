@@ -1,0 +1,75 @@
+header {
+  padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+header div.mobile {
+  display: none;
+}
+
+header div.mobile img {
+  width: 2rem;
+}
+
+header div.barraGeneral {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+header div.barraGeneral nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+header div.barraGeneral nav ul li {
+  padding: 1% 2%;
+}
+
+header div.barraGeneral nav ul li a {
+  text-decoration: none;
+  color: #242e52;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+header div.barraGeneral nav ul li a:active {
+  background-color: #f3603b;
+  color:white;
+}
+
+
+header button.botonHeader {
+  background-color: #f3603b;
+  color: #ffffff;
+  border-radius: 25px;
+  border: #f3603b 1px solid;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  box-shadow: 2px 10px 20px -5px rgba(0, 0, 0, 0.75);
+  width: 8rem;
+}
+
+header button.botonHeader:hover {
+  background-color:#2c435c;
+  border: #2c435c 1px solid; 
+  cursor:pointer;
+}
+
+
+

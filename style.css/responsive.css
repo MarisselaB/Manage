@@ -1,0 +1,185 @@
+@media screen and (max-width: 700px) {
+
+header {
+  padding: 4% 0;
+  justify-content: space-evenly;
+}
+
+header div.barraGeneral {
+  justify-content: space-between;
+  width: 70%;
+}
+
+header nav {
+  display: none;
+}
+
+header button.botonHeader {
+  display: none;
+}
+
+header div.mobile {
+  display: block;
+}
+
+  /* main  */
+
+main {
+  padding: 0 0.25rem;
+}
+
+section.parte1 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+section.parte1 article h1 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+section.parte1 article p {
+  text-align: center;
+  color: #b3b2b7;
+  font-weight: 100;
+  padding: 2rem 0 2rem 0;
+}
+
+section.parte1 button {
+  margin: 0 auto;
+}
+
+section.parte2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article.contenido1 {
+  width: 90%;
+}
+
+article.contenido1 h3 {
+  text-align: center;
+  padding-top: 20%;
+}
+
+article.contenido1 p {
+  text-align: center;
+  color: #b3b2b7;
+  font-weight: 100;
+  padding-right: 0;
+  padding-bottom: 20%;
+}
+
+article.contenido2 {
+  width: 100%;
+  padding: 0;
+  align-items: center;
+}
+
+article.contenido2 h5 {
+  background-color: #fbcac0;
+  padding: 0.4rem 1.3rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+div.cajas {
+  flex-direction: column;
+  align-items: center;
+}
+
+div.cajas1 span {
+  display: none;
+}
+
+article.contenido2 p {
+  margin: 0;
+}
+
+div.cajas span {
+  margin-right: 20px;
+  position: relative;
+  left: -33px;
+}
+
+section.parte3 article {
+  flex-direction: column;
+}
+
+div.botonParte3 {
+  padding-bottom: 5rem;
+}
+
+section.parte3 article aside img {
+  position: relative;
+  top: 25px;
+}
+
+section.parte3 article aside:nth-child(odd) {
+  display: none;
+}
+
+  /* Footer */
+
+section.superior {
+  flex-direction: column;
+  padding: 10%;
+  }
+
+section.superior h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+section.inferior {
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 0;
+}
+
+form {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+section.inferior article div.iconos {
+  margin-bottom: 2rem;
+}
+
+section.inferior article {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 10% 0 10%;
+}
+
+section.inferior article img.logoManage {
+  width: 80%;
+}
+
+footer p {
+  text-align: center;
+  padding-bottom: 3rem;
+  padding-right: 0;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+
+  /* main  */
+
+article.contenido2 h5 {
+  font-size: 0.9rem;
+}
+
+}
